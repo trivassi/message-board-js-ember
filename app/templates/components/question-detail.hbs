@@ -2,4 +2,12 @@
 
 <p> Additional Notes: {{question.notes}}</p>
 
+<h3>Answers:</h3>
+
+<p>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</p>
+
 <button {{action 'delete' question}}>Delete</button>

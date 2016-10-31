@@ -3,7 +3,7 @@
 We hope to be the answers to all your questions!
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 
@@ -13,9 +13,8 @@ We hope to be the answers to all your questions!
 <h2>All answers</h2>
 
 <ul>
-  {{#each model as |answer|}}
+  {{#each model.answers as |answer|}}
     <li>Answer:" {{answer.content}} " - {{answer.author}}</li>
   {{/each}}
 
-  {{new-answer saveAnswer="saveAnswer"}}
 </ul>
