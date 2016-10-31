@@ -1,10 +1,6 @@
 # Message-board-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+This web app will give users the ability to post questions. They will also be able to post answers to questions from other users or answer themselves.
 
 ## Prerequisites
 
@@ -42,9 +38,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
