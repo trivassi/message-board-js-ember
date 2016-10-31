@@ -9,3 +9,13 @@ We hope to be the answers to all your questions!
 
   {{new-question saveQuestion2="saveQuestion3"}}
 </ul>
+
+<h2>All answers</h2>
+
+<ul>
+  {{#each model as |answer|}}
+    <li>Answer:" {{answer.content}} " - {{answer.author}}</li>
+  {{/each}}
+
+  {{new-answer saveAnswer="saveAnswer"}}
+</ul>

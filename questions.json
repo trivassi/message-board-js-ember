@@ -10,5 +10,12 @@
     "content": "How many numbers does Pi have?",
     "author": "Violet Beauregarde",
     "notes": "Math"
+  }],
+  "answers": [{
+    "content": "The chicken",
+    "author": "Andrea"
+  }, {
+    "content": "To get to the other side",
+    "author": "Alex"
   }]
 }
