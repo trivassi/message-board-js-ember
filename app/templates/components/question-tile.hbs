@@ -1,4 +1,4 @@
-<li>
-  {{question.content}} asked by {{question.author}}
-  <button {{action 'delete' question}}>Delete</button>
-</li>
+<p>
+  {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}<br>
+  Asked by: {{question.author}}
+</p>
