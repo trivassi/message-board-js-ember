@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-  answers: [],
+  faves: [],
 
-  add(answer) {
-    this.get('answers').pushObject(answer);
+  add(fave) {
+    this.get('faves').pushObject(fave);
   }
 });
