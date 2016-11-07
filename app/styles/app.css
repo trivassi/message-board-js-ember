@@ -1,0 +1,48 @@
+body {
+  font-family: 'Lato', sans-serif;
+  /*background-color: #E0E2DB;*/
+  color: #191716;
+  font-size: 1.5em;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    position: relative;
+    background: #000 url("http://www.wns.com/Portals/0/Images/HeaderBanner/desktop/756/106/QnA_header.jpg") center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 400px;
+    margin-bottom: 0;
+}
+
+.jumbotron a {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  font-size: 8em;
+}
+
+.jumbotron a:hover {
+  text-decoration: none;
+}
+.jumbotron p{
+  color: white;
+  font-size: 2.5em;
+}
+
+/*navbar*/
+
+.navbar-nav a {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+}
+
+/*question-tile-hbs*/
+.home-question-tile a{
+  color: #191716;
+}
+
+.home-question-tile a:hover{
+  color: #191716;
+}

@@ -1,4 +1,5 @@
-<li>
-  {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}<br>
-   Asked by: {{question.author}}
-</li> 
+<div class="home-question-tile">
+  <li>
+    {{#link-to 'question' question.id}}{{heading}}{{/link-to}}
+  </li>
+</div>
