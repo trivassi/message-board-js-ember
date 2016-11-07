@@ -4,17 +4,9 @@ We hope to be the answers to all your questions!
 
 <ul>
   {{#each model.questions as |question|}}
-    {{question-popularity question}} {{question-tile question=question}}
+    {{question-tile question=question}}
+    {{question-popularity question}}
   {{/each}}
 
   {{new-question saveQuestion2="saveQuestion3"}}
-</ul>
-
-<h2>All answers</h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>Answer:" {{answer.content}} " - {{answer.author}}</li>
-  {{/each}}
-
 </ul>
